@@ -20,8 +20,8 @@ export const ReactFun = () => {
                     y2='51'
                     gradientUnits='userSpaceOnUse'
                 >
-                    <stop stop-color='#00D8FF' />
-                    <stop offset='1' stop-color='#FF00C7' />
+                    <stop stopColor='#00D8FF' />
+                    <stop offset='1' stopColor='#FF00C7' />
                 </linearGradient>
             </defs>
         </svg>
