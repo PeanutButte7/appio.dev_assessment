@@ -86,8 +86,8 @@ export const theme = createTheme({
             },
             _p: {
                 color: 'copy',
-                fontSize: '0.875rem',
-                lineHeight: '1.3rem',
+                fontSize: '1rem',
+                lineHeight: '1.5rem',
             },
         },
     }),

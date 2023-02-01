@@ -19,7 +19,7 @@ export function NavbarLink({ link, label }: NavbarLinkProps) {
                 fontSize='1rem'
                 color={{ _: 'react-blue', hover: 'white' }}
                 cursor='pointer'
-                py='1.5rem'
+                paddingTop='1.2rem'
             >
                 {label}
             </x.p>

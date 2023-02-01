@@ -14,14 +14,14 @@ export function StoryCard({ id, tags, title, description }: StoryCardProps) {
         <x.div
             className={styles.storyCard}
             w='416px'
-            h='447px'
             display='flex'
             flexDirection='column'
             alignItems='start'
-            justifyContent='space-between'
+            gap='2rem'
             border={2}
             borderColor={{ _: 'hero', hover: 'copy' }}
-            padding='2rem'
+            px='2rem'
+            py='2.5rem'
         >
             <x.div display='flex' flexDirection='row' gap='1rem'>
                 {tags.map((tag, index) => (
@@ -36,7 +36,7 @@ export function StoryCard({ id, tags, title, description }: StoryCardProps) {
                 ))}
             </x.div>
             <x.h4 color='primary'>{title}</x.h4>
-            <x.p fontSize='1rem'>{description}</x.p>
+            <x.p>{description}</x.p>
             <TextLink href={'/story/' + id}>Story detail</TextLink>
         </x.div>
     );

@@ -14,11 +14,10 @@ export function TextCard({ id, tags, title, description }: StoryCardProps) {
         <x.div
             className={styles.textCard}
             w='416px'
-            h='334px'
             display='flex'
+            gap='2rem'
             flexDirection='column'
             alignItems='start'
-            justifyContent='space-between'
         >
             <x.div>
                 <x.h4 color='primary' marginBottom='1rem'>
