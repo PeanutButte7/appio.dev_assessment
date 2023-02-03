@@ -14,15 +14,19 @@ export function StorySection({ title, subtitle, children }: StorySectionProps) {
             display='flex'
             flexDirection='column'
             alignItems='center'
-            gap='2rem'
             marginTop='6rem'
         >
             <x.h2>{title}</x.h2>
-            <x.h6 maxWidth='730px' textAlign='center'>
+            <x.h6 maxWidth='730px' textAlign='center' marginTop='2rem'>
                 {subtitle}
             </x.h6>
-            <x.div mx='5vw'>
-                <x.div display='grid' gridTemplateColumns={3} gap='2rem'>
+            <x.div mx='10vw' marginTop='4rem'>
+                <x.div
+                    display='grid'
+                    gridTemplateColumns={3}
+                    gap='2rem'
+                    justifyItems='center'
+                >
                     {children}
                 </x.div>
                 <Button alignSelf='start' marginTop='3rem'>
